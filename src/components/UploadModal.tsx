@@ -295,8 +295,7 @@ export function UploadModal({ onClose, onUploaded }: { onClose: () => void; onUp
                 className="mt-0.5 w-5 h-5 rounded accent-emerald-600 shrink-0"
               />
               <span className="text-xs font-500 text-forest-800 dark:text-sand-100 leading-snug">
-                ✓ {t('antiAiPledge')}<br />
-                <span className="text-forest-700/50 dark:text-sand-300/50">{t('antiAiPledgeEu')}</span>
+                ✓ {t('antiAiPledge')}
               </span>
             </label>
 
